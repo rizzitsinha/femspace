@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  border: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.alert {
+  border-radius: 10px;
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.rating-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.star-rating, .human-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating svg, .human-rating svg {
+  transition: all 0.2s ease-in-out;
+}
+
+.star-rating svg:hover {
+  transform: scale(1.2);
+}
+
+.human-rating svg:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.rating-text {
+  color: #666;
+  font-size: 0.9rem;
+}
