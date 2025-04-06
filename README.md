@@ -10,10 +10,10 @@ A React-based web application to help users find nearby women's washrooms with u
 - 🚦 5km radius filtering
 
 ## Tech Stack 💻
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![LocalStorage](https://img.shields.io/badge/-LocalStorage-008080?logo=html5&logoColor=white)
+* [React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+* [Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white)
+* [JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+* [LocalStorage](https://img.shields.io/badge/-LocalStorage-008080?logo=html5&logoColor=white)
 
 **Core Technologies:**
 - React 18
