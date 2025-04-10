@@ -1,56 +1,42 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
 
 .card {
-  border-radius: 15px;
-  border: none;
-  transition: box-shadow 0.3s ease-in-out;
+  padding: 2em;
 }
 
-.card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-.alert {
-  border-radius: 10px;
-}
-
-.shadow-sm {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.rating-group {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.rating-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.star-rating, .human-rating {
-  display: flex;
-  align-items: center;
-}
-
-.star-rating svg, .human-rating svg {
-  transition: all 0.2s ease-in-out;
-}
-
-.star-rating svg:hover {
-  transform: scale(1.2);
-}
-
-.human-rating svg:hover {
-  transform: scale(1.15);
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
-}
-
-.rating-text {
-  color: #666;
-  font-size: 0.9rem;
+.read-the-docs {
+  color: #888;
 }
