@@ -5,7 +5,9 @@ import Locator from './pages/Locator';
 
 export default function App() {
   return (
+    // <h1>hello</h1>
     <Router>
+      
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
